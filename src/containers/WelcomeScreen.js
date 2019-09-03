@@ -8,7 +8,6 @@ import styles from './Styles/WelcomeScreenStyles.js';
 const WelcomeScreen = () => {
   return (
     <View style={styles.container}>
-      <SearchTitle/>
       <SearchBar/>
     </View>
   );
